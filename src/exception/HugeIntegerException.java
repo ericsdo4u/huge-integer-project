@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class HugeIntegerException {
+package exception;
+
+public class HugeIntegerException extends RuntimeException{
+   public HugeIntegerException(String message){
+        super(message);
+
+    }
 }
